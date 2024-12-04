@@ -1,1 +1,14 @@
+public class Main {
 
+    public static void main(String[] args) {
+        System.out.println("Hello \nJava");
+        System.out.println("My name is Burak Aslaner");
+        System.out.println("***********");
+        System.out.println("Hello Java \nMy name is Burak Aslaner");
+
+    }
+}
+
+// (\n) = Allows to move to the next line
+/* (//) = It is a comment line, it has no effect on the code.
+ You can use it when you want to give information. */
