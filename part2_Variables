@@ -1,0 +1,24 @@
+public class Main {
+    public static void main(String[] args) {
+        byte kucukSayi = 120;
+        System.out.println(kucukSayi);
+
+        short sayi = 32000;
+        System.out.println(sayi);
+
+        int genelSayi = 4564657;
+        System.out.println(genelSayi);
+
+        long buyukSayi = 454;
+        System.out.println(buyukSayi);
+
+        double oran = 14.3;
+        System.out.println(oran);
+
+        char karakter = '$';
+        System.out.println(karakter);
+
+
+
+    }
+}
