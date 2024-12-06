@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Kütle değerini giriniz: ");
+        int m = sc.nextInt();
+        System.out.print("İvme değerini giriniz: ");
+        int a = sc.nextInt();
+        int f = m * a;
+        System.out.println("Kuvvet: " + f);
+        //System.out.println("Kuvvet: " + (m*a));
+
+
+    }
+}
