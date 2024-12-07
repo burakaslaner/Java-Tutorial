@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Şen Bakkala hoşgeldiniz");
+        System.out.println("Kaç tane ekmek istersiniz?");
+        int ekmekAdet = input.nextInt();
+        int ekmekFiyat = ekmekAdet * 10;
+        System.out.println("Kaç şişe süt istersiniz?");
+        int sutAdet = input.nextInt();
+        int sutFiyat = sutAdet * 27;
+        System.out.println("Kaç kilo tereyağı istersiniz?");
+        int yagKilo = input.nextInt();
+        int yagFiyat = yagKilo * 210;
+        int hesap;
+        hesap = ekmekFiyat + sutFiyat + yagFiyat;
+        System.out.println("Hesabınız: " + hesap +"TL");
+
+    }
+}
