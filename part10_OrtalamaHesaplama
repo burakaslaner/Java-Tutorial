@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Birinci kişinin vize notunu giriniz: ");
+        int vizeNotu1 = input.nextInt();
+        System.out.println("Birinci kişinin final giriniz: ");
+        int finalNotu1 = input.nextInt();
+
+        double ortalama1 = vizeNotu1 * 0.4  + finalNotu1 * 0.6;
+
+        System.out.println("İkinci kişinin vize notunu giriniz: ");
+        int vizeNotu2 = input.nextInt();
+        System.out.println("İkinci kişinin final giriniz: ");
+        int finalNotu2 = input.nextInt();
+
+        double ortalama2 = vizeNotu2 * 0.4  + finalNotu2 * 0.6;
+
+        if(ortalama1 > ortalama2){
+            System.out.println("Birinci kişi daha yüksek. Notu: " + ortalama1);
+        }
+        else if (ortalama1 == ortalama2) {
+            System.out.println("Her ikisi de eşittir");
+        }
+        else {
+            System.out.println("İkinci kişi daha yüksek. Notu: " + ortalama2);
+        }
+
+
+    }
+}
