@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Kullanıcı Adı: ");
+        String kullaniciAdi = input.nextLine();
+        System.out.println("Şifre: ");
+        String sifre = input.nextLine();
+
+        if (kullaniciAdi.equals("admin") && sifre.equals("123456")){
+            System.out.println("Giriş Başarılı");
+        }
+        else{
+            System.out.println("Giriş Başarısız");
+        }
+    }
+}
