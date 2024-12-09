@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Üniversite kaçıncı sınıftasınız?");
+        byte sinif = input.nextByte();
+        switch (sinif){
+            case 1 :
+                System.out.println("ÇAYLAK");
+                break;
+            case 2 :
+                System.out.println("KALFA");
+                break;
+            case 3 :
+                System.out.println("USTA");
+                break;
+            case 4 :
+                System.out.println("ÜSTAD");
+                break;
+            default :
+                System.out.println("Geçerli bir değer giriniz!");
+        }
+
+    }
+}
