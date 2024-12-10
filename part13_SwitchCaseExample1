@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in, "ISO-8859-9");
+        System.out.print("Coğrafi bölgenizi giriniz: ");
+        String bolge = input.nextLine();
+
+        switch (bolge){
+            case "Marmara" :
+                System.out.println("Marmara için burs 600TL");
+                break;
+            case "Ege" :
+                System.out.println("Ege için burs 550TL");
+                break;
+            case "Akdeniz" :
+                System.out.println("Akdeniz için burs 500TL");
+                break;
+            case "İç Anadolu" :
+                System.out.println("İç Anadolu için burs 450TL");
+                break;
+            case "Güneydoğu Anadolu" :
+                System.out.println("Güneydoğu Anadolu için burs 400TL");
+                break;
+            case "Doğu Anadolu" :
+                System.out.println("Doğu Anadolu için burs 350TL");
+                break;
+            case "Karadeniz" :
+                System.out.println("Karadeniz için burs 61TL");
+                break;
+            default :
+                System.out.println("Lütfen doğru bir bölge ismi yazınız.");
+
+        }
+    }
+}
