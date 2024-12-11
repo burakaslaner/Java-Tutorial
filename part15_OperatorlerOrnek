@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Birinci sayıyı giriniz: ");
+        int sayi1 = input.nextInt();
+        System.out.println("İkinci sayıyı giriniz: ");
+        int sayi2 = input.nextInt();
+        System.out.println("Üçüncü sayıyı giriniz: ");
+        int sayi3 = input.nextInt();
+
+
+        if(sayi1 % 2 == 0 || sayi2 % 2 == 0 || sayi3 % 2 == 0 ){
+            System.out.println("TEBRİKLER");
+        }
+        else{
+            System.out.println("KAYBETTİN");
+        }
+    }
+
+
+}
