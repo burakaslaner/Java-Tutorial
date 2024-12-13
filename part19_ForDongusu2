@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Sayı Giriniz: ");
+        int deger = input.nextInt();
+        int faktoriyel = 1;
+        for(int i = 1; i <= deger; i++){
+            faktoriyel = faktoriyel * i;
+        }
+        System.out.println("Girilen sayinin faktöriyel değeri: " + faktoriyel);
+
+    }
+}
