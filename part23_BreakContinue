@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int sayi;
+        while (true){
+            System.out.print("1 sayısını gir: ");
+            sayi = input.nextInt();
+            if (sayi == 1){
+                break;
+            }
+
+        }
+        System.out.println("Döngü bitti.");
+    }
+
+
+}
