@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        int toplam = 0;
+        int sayi;
+        do{
+            System.out.println("Sayı giriniz: ");
+            sayi = input.nextInt();
+
+            toplam = toplam + sayi;
+        }
+        while (sayi !=0);
+        System.out.println("Toplam: " + toplam);
+    }
+}
