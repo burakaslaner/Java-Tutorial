@@ -1,0 +1,20 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] sayilar = {12, 6, 4, 47, 124};
+        String[] isimler = {"Bahadır", "Ömer", "Buse", "Gülşen"};
+
+        for(int i = 0; i < sayilar.length; i++){
+            System.out.println(sayilar[i]);
+        }
+        System.out.println("--------------------------------");
+        for(int j = 0; j < isimler.length; j++){
+            System.out.println(isimler[j]);
+        }
+        for(int sayi : sayilar){
+            System.out.println(sayi);
+        }
+
+
+
+    }
+}
