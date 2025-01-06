@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int sayilar[] = new int[10];
+        int tumToplam = 0;
+        int ilkSonToplam = 0;
+
+        for(int i = 0; i < 10; i++){
+            System.out.println("Sayı giriniz: ");
+            sayilar[i] = input.nextInt();
+            tumToplam += sayilar[i];
+        }
+        ilkSonToplam = sayilar[0] + sayilar[9];
+        double oran = ilkSonToplam / tumToplam;
+
+        System.out.println("-------------------------------");
+        System.out.println("Dizinin Toplamı: " + tumToplam);
+        System.out.println("-------------------------------");
+        System.out.println("İlk ve son değerlerin toplamı: " + ilkSonToplam);
+        System.out.println("-------------------------------");
+        System.out.println("İlk ve son sayıların tüm sayıların toplamına oranı: " + oran);
+
+    }
+}
