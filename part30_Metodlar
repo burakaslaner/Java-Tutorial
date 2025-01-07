@@ -1,0 +1,15 @@
+public class Main {
+
+    public static void kendiniTanit(){
+        System.out.println("Adı: Burak");
+        System.out.println("Soyadı: Aslaner");
+        System.out.println("Okulu: CBU");
+        System.out.println("Bölümü: CENG");
+        System.out.println("Şehri: İzmir");
+
+    }
+    public static void main(String[] args) {
+        kendiniTanit();
+
+    }
+}
