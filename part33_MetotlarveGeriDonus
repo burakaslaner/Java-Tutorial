@@ -1,0 +1,13 @@
+public class Main {
+
+    public static double ortalamaBul(int sayi1, int sayi2){
+        int toplam = sayi1 + sayi2;
+        double ortalama = toplam / 2;
+        return ortalama;
+    }
+    public static void main(String[] args) {
+        double sonuc = ortalamaBul(10, 20);
+        System.out.println(sonuc);
+
+    }
+}
