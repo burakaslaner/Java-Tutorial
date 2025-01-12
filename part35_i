@@ -1,0 +1,3 @@
+int say;
+say = 3;
+System.out.print(say);
