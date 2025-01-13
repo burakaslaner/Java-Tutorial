@@ -1,0 +1,23 @@
+public class Main {
+
+    public static void puanYazdir(String kullaniciAdi, int puan){
+        System.out.println(kullaniciAdi + " isimli kullanıcının puanı: " + puan);
+    }
+    public static void puanYazdir(String kullaniciAdi){
+        System.out.println(kullaniciAdi + " isimli kullanıcının puanı: 0");
+    }
+    public static void puanYazdir(int puan){
+        System.out.println("İsimsiz kullanıcının puanı: " +puan);
+    }
+    public static void puanYazdir(){
+        System.out.println("İsimsiz kullanıcının puanı: 0");
+    }
+
+    public static void main(String[] args) {
+        puanYazdir("fosforat", 20);
+        puanYazdir("fosforat");
+        puanYazdir(50);
+        puanYazdir();
+
+    }
+}
