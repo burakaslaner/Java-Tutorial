@@ -1,0 +1,20 @@
+public class Main {
+
+    public static void karesiniAl(int sayi){
+        int sonuc = sayi * sayi;
+        System.out.println(sonuc);
+    }
+    public static void karesiniAl(double sayi){
+        double sonuc = sayi * sayi;
+        System.out.println(sonuc);
+    }
+
+    public static void main(String[] args) {
+       karesiniAl(4);
+       karesiniAl(12.4);
+
+
+
+
+    }
+}
