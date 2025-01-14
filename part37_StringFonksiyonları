@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+        String isim = "Burak Aslaner";
+
+        System.out.println(isim.length());
+
+        String buyukIsim = isim.toUpperCase();
+        System.out.println(buyukIsim);
+        String kucukIsim = isim.toLowerCase();
+        System.out.println(kucukIsim);
+
+        System.out.println(isim.trim()); // yazılan string ifadenin önündeki ve sonundaki boşlukları siler.
+
+        String ad = "Burak";
+        ad = ad.concat(" "); // concat iki ifadeyi birleştirmeyi sağlar.
+        String soyad = "Aslaner";
+        String tamIsim = ad.concat(soyad);
+        System.out.println(tamIsim);
+
+
+    }
+}
