@@ -1,0 +1,26 @@
+public class Main {
+    public static void main(String[] args) {
+        String isim = "Burak Aslaner";
+
+        System.out.println(isim.charAt(3));
+
+        int indis = isim.indexOf("A");
+        System.out.println(indis);
+
+        System.out.println(isim.substring(0, 3)); // 0 dan 2 ye kadar 3 dahil değil
+
+        System.out.println(isim.contains("Aslaner")); // contains = içermek
+
+        isim = "Elizaveta Dogru";
+
+        isim = isim.replace("Dogru", "Aslaner");
+
+        System.out.println(isim);
+
+        String cumle = "Ne Mutlu Türküm Diyene";
+        String[] kelimeler = cumle.split(" "); // split cümleleri ayırmak için kullanılıyor
+        System.out.println(kelimeler[2]);
+
+
+    }
+}
