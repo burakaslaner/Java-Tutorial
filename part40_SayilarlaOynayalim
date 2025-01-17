@@ -1,0 +1,21 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(Math.abs(-47)); // abs = mutlak değeri alır
+        System.out.println(Math.sqrt(25)); // sqrt = karakök değerini verir
+        System.out.println(Math.pow(2, 3)); // üs alma işlemini yapar
+
+        System.out.println(Math.max(70, 10));
+        System.out.println(Math.min(70, 10));
+
+        System.out.println(Math.ceil(2.2)); // ondalıklı sayıyı bir üstündeki sayıya yuvarlar
+        System.out.println(Math.floor(2.8)); // ondalıklı sayıyı bir altındaki sayıya yuvarlar
+
+        System.out.println(Math.round(2.5)); // ondalıklı sayıyı mantıklı bir şekilde üste ve alta yuvarlar
+
+        System.out.println(Math.random()); // 0 ile 1 arasında rastgele değer üretir
+
+
+
+
+    }
+}
