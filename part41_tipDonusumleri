@@ -1,0 +1,34 @@
+public class Main {
+    public static void main(String[] args) {
+        String sayi = "45";
+        System.out.println(sayi + 10);
+
+        int tamSayi = Integer.parseInt(sayi);
+        System.out.println(tamSayi + 10);
+
+        tamSayi = Integer.valueOf(sayi);
+        int toplam = tamSayi + 20;
+        System.out.println(toplam);
+
+        String sayi1 = "123456789";
+        long buyukSayi = Long.parseLong(sayi1);
+        System.out.println(buyukSayi + 10);
+
+        buyukSayi = Long.valueOf(sayi1);
+        System.out.println(buyukSayi + 10);
+
+        String ondalikli = "57.4";
+        float fOndalik = Float.parseFloat(ondalikli);
+        System.out.println(fOndalik + 10);
+
+        double dOndalik = Double.parseDouble(ondalikli);
+        System.out.println(dOndalik + 10);
+
+        // -------------------------------------------------
+
+        double ondalik = 27.5;
+        int tam = (int) ondalik;
+        System.out.println(tam);
+
+    }
+}
