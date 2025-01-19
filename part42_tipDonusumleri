@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        int sayi = 11;
+        String karakterSayi = String.valueOf(sayi);
+
+        System.out.println(karakterSayi + 10);
+
+        double pi = 3.14;
+        System.out.println(String.valueOf(pi));
+
+        char[] karakterler = {'a','b','c'};
+
+        String charDizisi = String.valueOf(karakterler);
+        System.out.println(charDizisi);
+
+    }
+}
